@@ -1,0 +1,417 @@
+/* 一屏的高度 */
+html,body,.main{
+    height:100%;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}  
+
+.swiper-button-next{
+    width:0.5rem;
+    height:0.4rem;
+    background:url("../images/arrow.png") center center no-repeat;
+    background-size:cover;
+    position:absolute;
+    bottom:0.4rem;
+    left:50%;
+    margin-left:-0.25rem;
+    top:auto;
+    animation: slideInUp 1s infinite;
+}
+
+@-webkit-keyframes slideInUp {
+    from {
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes slideInUp {
+    from {
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+/* 第一页 */
+.page1>img{
+    position:absolute;
+}
+.page1{
+    background:url("../tupian/01.png") center center no-repeat;
+    background-size:cover;
+}
+.tubiao1{
+    height:1.6rem;
+    left:0.3rem;
+    top:2.5rem;
+}
+
+.tubiao2{
+    height:1.6rem;
+    right:0;
+    top:5.5rem;
+}
+
+.tubiao3{
+    height:1.6rem;
+    right:0rem;
+    top:0rem;
+}
+
+.yuan1{
+    width:3rem;
+    height:3rem;
+    right:3.5rem;
+    top:2.5rem;
+}
+
+.yuan2{
+    width:2.5rem;
+    height:2.5rem;
+    right:2rem;
+    top:3.5rem;
+}
+.yuan3{
+    width:2rem;
+    height:2rem;
+    right:0.9rem;
+    top:4.5rem;
+}
+
+.ziji{
+    width:4rem;
+    height:4rem;
+    right:1.75rem;
+    top:2rem;
+}
+
+.jianli{
+    width:7rem;
+    height:2.5rem;
+    bottom:1rem;
+    left:0.25rem;
+}
+.baidi{
+    width:8.1rem;
+    height:2.5rem;
+    bottom:1rem;
+}
+
+.xingming{
+    position:absolute;
+    font-size:0.5rem;
+    left:2.25rem;
+    bottom:5rem;
+    color:darkorange;
+}
+
+/* 第二页 */
+.page2{
+    position:relative;
+}
+.page2>img{
+    position:absolute;
+}
+.page2{
+    background:url("../tupian/01.png") center center no-repeat;
+    background-size:cover;
+}
+.xinfeng1{
+    width:7.5rem;
+    height:7.5rem;
+    left:0rem;
+    bottom:0rem;
+}
+
+.xinfeng2{
+    width:7.5rem;
+    height:4rem;
+    left:0rem;
+    bottom:0rem;
+}
+
+.xinfeng3{
+    width:6.5rem;
+    height:12rem;
+    left:0.5rem;
+    right: 6.5rem;
+    bottom:0rem;
+}
+
+.sanjiao{
+    width:3.8rem;
+    height:1.8rem;
+    left: 2rem;
+    top:0rem;
+}
+
+.jibenxinxi{
+    position:absolute;
+    font-size:0.4rem;
+    left:3.1rem;
+    top:0.2rem;
+    color:#fff;}
+
+.textContent{
+    position:absolute;
+    font-size:0.35rem;
+    left:1.25rem;
+    top:2rem;
+    line-height:0.8rem;
+    color:darkorange;
+}
+
+/* page3 */
+.page3{
+    background:url("../tupian/01.png") center center no-repeat;
+    background-size:cover;
+}
+.page3>img{
+    position: absolute;
+}
+
+.textContent2{
+    width:5.2rem;
+    height: 3.5rem;
+    position:absolute;
+    font-size:0.35rem;
+    left:1.25rem;
+    top:3rem;
+    line-height:0.8rem;
+    color:darkorange;
+}
+
+/* page4 */
+.page4{
+    background:url("../tupian/01.png") center center no-repeat;
+    background-size:cover;
+}
+.page4>img{
+    position: absolute;
+}
+
+.textContent3{
+    width:5.2rem;
+    height: 3.5rem;
+    position:absolute;
+    font-size:0.3rem;
+    left:1.25rem;
+    top:2rem;
+    line-height:0.7rem;
+    color:darkorange;
+}
+
+/* page5 */
+.page5{
+    background:url("../tupian/01.png") center center no-repeat;
+    background-size:cover;
+}
+.page5>img{
+    position: absolute;
+}
+
+.chang{
+    width:3rem;
+    height:0.2rem;
+    right: 1rem;
+    top:3.29rem;}
+
+.chang02{
+    width:3rem;
+    height:0.2rem;
+    right: 1rem;
+    top:4.12rem;}
+
+.chang03{
+    width:3rem;
+    height:0.2rem;
+    right: 1rem;
+    top:4.93rem;}
+
+.chang04{
+    width:3rem;
+    height:0.2rem;
+    right: 1rem;
+    top:5.72rem;}
+
+.chang05{
+    width:3rem;
+    height:0.2rem;
+    right: 1rem;
+    top:6.52rem;}
+
+.chang06{
+    width:3rem;
+    height:0.2rem;
+    right: 1rem;
+    top:7.33rem;}
+
+.textContent4{
+    width:5.2rem;
+    height: 3.5rem;
+    position:absolute;
+    font-size:0.35rem;
+    left:1.25rem;
+    top:3rem;
+    line-height:0.8rem;
+    color:darkorange;}
+
+/* page6 */
+.page6{
+    background:url("../tupian/01.png") center center no-repeat;
+    background-size:cover;
+}
+.page6>img{
+    position: absolute;
+}
+.textContent6{
+    width:5.2rem;
+    height: 3.5rem;
+    position:absolute;
+    font-size:0.6rem;
+    left:2.5rem;
+    top:3rem;
+    line-height:0.8rem;
+    color:darkorange;}
+
+/* page7 */
+.page7{
+    background:url("../tupian/01.png") center center no-repeat;
+    background-size:cover;
+}
+.page7>img{
+    position: absolute;
+}
+.zuopin01{
+    width:2.3rem;
+    height:2.28rem;
+    left: 1rem;
+    top:3rem;
+}
+
+.zuopin02{
+    width:3rem;
+    height:2.2rem;
+    right: 1rem;
+    top:3rem;
+}
+
+.zuopin03{
+    width:2.3rem;
+    height:2.28rem;
+    left: 1rem;
+    top:6rem;
+}
+
+.zuopin04{
+    width:3rem;
+    height:2.2rem;
+    right: 1rem;
+    top:6rem;
+}
+
+/* page8 */
+.page8{
+    background:url("../tupian/01.png") center center no-repeat;
+    background-size:cover;
+}
+.page8>img{
+    position: absolute;
+}
+.zuopin05{
+    width:2.5rem;
+    height:3.8rem;
+    left: 1rem;
+    top:4rem;
+}
+
+.zuopin06{
+    width:2.5rem;
+    height:3.8rem;
+    right: 1rem;
+    top:4rem;
+}
+
+/* page9 */
+
+.page9{
+    background:url("../tupian/01.png") center center no-repeat;
+    background-size:cover;
+}
+.page9>img{
+    position: absolute;
+}
+
+.tubiao4{
+    height:1.6rem;
+    right:0;
+    top:6.5rem;
+}
+
+.tubiao5{
+    height:1.6rem;
+    left:0;
+    bottom:3rem;
+}
+
+.yuan4{
+    width:4.5rem;
+    height:4.5rem;
+    right:1.5rem;
+    top:3rem;
+}
+
+.weixin{
+    width:3.5rem;
+    height:3.5rem;
+    right:2rem;
+    top:3.45rem;
+}
+
+.textContent5{
+    width:5.2rem;
+    height: 3.5rem;
+    position:absolute;
+    font-size:0.35rem;
+    left:1.5rem;
+    bottom:1rem;
+    line-height:0.8rem;
+    color:darkorange;
+}
+
+.music{
+   width:1rem;
+   height:1rem;
+   background:url("../tupian/yinyue.png") center center no-repeat;
+   background-size:cover;
+   position: absolute;
+   left:0.2rem;
+   top:0.2rem;
+   z-index:999;
+   border-radius:50%;
+   animation: music 2s linear infinite;
+}
+@keyframes music{
+    0%{
+        transform: rotate(0deg);
+                             
+      }
+   100%{
+        transform: rotate(360deg);
+                                 
+        }
+}
